@@ -160,13 +160,26 @@ a {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(255, 232, 31, 0.5);
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 1000px;
     transition: all 1s ease;
 }
 
 #carouselExampleSlidesOnly:hover {
     box-shadow: 0 0 20px 10px rgba(255, 232, 31, 0.7);
 }
+
+#carouselExampleIndicators {
+    z-index: 3;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
 
 .carousel-item img {
     width: 100%;
@@ -604,4 +617,44 @@ a {
 
 .wheel-and-hamster {
     margin-top: 50px;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.presentacion img {
+    max-width: 50%;
+    height: 300px;
+    object-fit: contain; 
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.presentacion img:hover {
+    transform: scale(1.05);
+}
+
+.contenido {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido h1 {
+    font-size: 2em;
+    color: #ffe81f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenido p {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: justify;
 }

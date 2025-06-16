@@ -41,6 +41,101 @@
             </div>
         </div>
     </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <div class="presentacion">
+                    <img src="death.png">
+                    <div class="contenido">
+                        <h1>Darth Vader</h1>
+                        <p>
+                            Una vez que el heroico Caballero Jedi llamó a Anakin Skywalker, Darth Vader fue seducido por
+                            el lado oscuro de la Fuerza. Siempre marcado por su derrota en Mustafar, Vader se transformó
+                            en un Lord Sith cibernéticamente mejorado. En los albores del Imperio, Vader dirigió la
+                            erradicación de la Orden Jedi por parte de las Empireadas y la búsqueda de sobrevivientes.
+                            Permaneció al servicio del Emperador, el malvado Darth Sidious, durante décadas, haciendo
+                            cumplir su voluntad de Maestría y tratando de aplastar a la Alianza Rebelde y otros
+                            detractores
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <div class="presentacion">
+                    <img src="Luke.png">
+                    <div class="contenido">
+                        <h1>Luke Skywalkerr</h1>
+                        <p>
+                            Humano sensible a la Fuerza y un Maestro Jedi quien, junto a su hermana gemela, la Princesa
+                            Leia Organa, luchó en contra del gobierno del Imperio Galáctico durante la Guerra Civil
+                            Galáctica. Hijo del Caballero Jedi Anakin Skywalker y de la Senadora Padmé Amidala de Naboo.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <div class="presentacion">
+                    <img src="Leia.png">
+                    <div class="contenido">
+                        <h1>Leia Organa</h1>
+                        <p>
+                            Humano sensible a la Fuerza y un Maestro Jedi quien, junto a su hermana gemela, la Princesa
+                            Leia Organa, luchó en contra del gobierno del Imperio Galáctico durante la Guerra Civil
+                            Galáctica. Hijo del Caballero Jedi Anakin Skywalker y de la Senadora Padmé Amidala de Naboo.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <div class="presentacion">
+                    <img src="C-3PO.png">
+                    <div class="contenido">
+                        <h1>C-3PO</h1>
+                        <p>
+                            C-3PO fue reconstruido a partir de piezas de repuesto por Anakin Skywalker, un esclavo
+                            humano que vivía en Mos Espa, una ciudad en el mundo del Borde Exterior de Tatooine. Poco
+                            después de las Guerras Clon, la memoria de C-3PO fue borrada, aunque la de R2-D2 no. C-3PO y
+                            R2-D2 fueron asignados al crucero de Alderaan Tantive IV, donde sirvieron al senador Bail
+                            Organa durante diecinueve años.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
     <div class="todo">
         <div class="container">
             <div id="personajes-lista">
@@ -77,7 +172,7 @@
 
         setTimeout(() => {
             obtenerTodosLosPersonajes();
-        }, 4000);
+        }, 6000);
 
         async function obtenerTodosLosPersonajes() {
 
