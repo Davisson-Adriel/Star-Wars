@@ -136,6 +136,8 @@
         </button>
     </div>
 
+
+
     <div class="todo">
         <div class="container">
             <div id="personajes-lista">
@@ -187,7 +189,12 @@
                 nextUrl = datos.next;
             }
 
-            personajesListaDiv.innerHTML = '';
+            personajesListaDiv.innerHTML = `
+            <input type="text" id="search" placeholder="Buscar personajes..." class="form-control mb-3">
+           
+            `;
+
+            document.getElementById('search').addEventListener('input', filtrarPersonajes);
 
             todosLosPersonajes.forEach(personaje => {
                 const personajeDiv = document.createElement('div');
@@ -210,6 +217,23 @@
                 personajesListaDiv.appendChild(personajeDiv);
             });
         }
+
+    function filtrarPersonajes() {
+            const searchInput = document.getElementById('search');
+            const filter = searchInput.value.toLowerCase();
+            const personajesDivs = document.querySelectorAll('.divdiv');
+
+            personajesDivs.forEach(div => {
+                const nombre = div.querySelector('h2').textContent.toLowerCase();
+                if (nombre.includes(filter)) {
+                    div.style.display = '';
+                } else {
+                    div.style.display = 'none';
+                }
+            });
+        }
+
+        
 
     </script>
 

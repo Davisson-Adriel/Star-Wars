@@ -230,7 +230,6 @@ a {
     box-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
 }
 
-
 .tarjeta:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 232, 31, 0.7);
@@ -623,13 +622,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:20px;
+    padding: 20px;
 }
 
 .presentacion img {
     max-width: 50%;
     height: 300px;
-    object-fit: contain; 
+    object-fit: contain;
     display: block;
     transition: all 0.3s ease;
 }
@@ -639,7 +638,7 @@ a {
 }
 
 .contenido {
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -657,4 +656,19 @@ a {
     font-size: 1em;
     color: #ffffff;
     text-align: justify;
+}
+
+#search {
+    width: 100vw;
+    margin: 20px auto;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
+    transition: all 0.3s ease;
+    background-color:white;
+}
+
+#search:hover {
+    box-shadow: 0 0 20px rgba(255, 232, 31, 0.7);
 }
