@@ -11,8 +11,8 @@ setTimeout(() => {
 }, 5000);
 
 let especiesImg = [
-    "e1.png", "e2.png", "e3.png", "e4.png", "e5.png",
-    "e6.png", "e7.png", "e8.png", "e9.png", "e10.png"
+    "../IMG/e1.png", "../IMG/e2.png", "../IMG/e3.png", "../IMG/e4.png", "../IMG/e5.png",
+    "../IMG/e6.png", "../IMG/e7.png", "../IMG/e8.png", "../IMG/e9.png", "../IMG/10.png"
 ];
 
 async function obtenerEspecies() {

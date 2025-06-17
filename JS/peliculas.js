@@ -11,7 +11,7 @@ setTimeout(() => {
 }, 4000);
 
 let peliculasImg = [
-    "./IMG/ep1.jpg", "./IMG/ep2.jpg", "./IMG/ep3.jpg", "./IMG/ep4.jpg", "./IMG/ep5.jpg", "./IMG/ep6.jpg", "./IMG/ep7.jpg"
+    "../IMG/ep1.jpg", "../IMG/ep2.jpg", "../IMG/ep3.jpg", "../IMG/ep4.jpg", "../IMG/ep5.jpg", "../IMG/ep6.jpg", "../IMG/ep7.jpg"
 ];
 
 async function obtenerPeliculas() {

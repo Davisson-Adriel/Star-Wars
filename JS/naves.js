@@ -12,16 +12,16 @@ setTimeout(() => {
 
 let navesimg = [
 
-    "./IMG/n1.png",
-    "./IMG/n2.png",
-    "./IMG/n3.png",
-    "./IMG/n4.png",
-    "./IMG/n5.png",
-    "./IMG/n6.png",
-    "./IMG/n7.png",
-    "./IMG/n8.png",
-    "./IMG/n9.png",
-    "./IMG/n10.png"
+    "../IMG/n1.png",
+    "../IMG/n2.png",
+    "../IMG/n3.png",
+    "../IMG/n4.png",
+    "../IMG/n5.png",
+    "../IMG/n6.png",
+    "../IMG/n7.png",
+    "../IMG/n8.png",
+    "../IMG/n9.png",
+    "../IMG/n10.png"
 ];
 
 async function obtenerTodasLasNaves() {
