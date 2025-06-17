@@ -38,7 +38,7 @@ let vehiculosImg = [
     "../IMG/v25.png",
     "../IMG/v26.png",
     "../IMG/v27.png",
-    "../IMG/v28.png",
+    "../IMG/V28.png",
     "../IMG/v29.png",
     "../IMG/v30.png",
     "../IMG/v31.png",
@@ -50,7 +50,7 @@ let vehiculosImg = [
     "../IMG/v37.png",
     "../IMG/v38.png",
     "../IMG/v39.png",
-    "../IMG/v40.png"
+    "../IMG/V40.png"
 ];
 
 async function obtenerVehiculos() {
