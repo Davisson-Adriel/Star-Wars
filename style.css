@@ -666,7 +666,7 @@ a {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
     transition: all 0.3s ease;
-    background-color:white;
+    background-color: white;
 }
 
 #search:hover {
@@ -729,9 +729,9 @@ a {
 }
 
 .planeta-card:hover .planeta-img {
- opacity: 0.5;
- z-index: 1;
- transform: scale(1.05);
+    opacity: 0.5;
+    z-index: 1;
+    transform: scale(1.05);
 }
 
 .planeta-nombre {
@@ -743,4 +743,89 @@ a {
     font-size: 18px;
     text-shadow: 0px 0px 5px black;
     z-index: 2;
+}
+
+.container2 {
+    position: absolute;
+    inset: 0;
+    zoom: 0.5;
+    transform: translate(0%,-30%);
+
+    .loader {
+        top: calc(50% - 200px);
+        left: calc(50% - 200px);
+        animation: girar 8s linear infinite;
+
+        &,
+        .sphere,
+        .item {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            transform-style: preserve-3d;
+            perspective: 10000px;
+        }
+
+        .sphere,
+        .item {
+            top: 0;
+            left: 0;
+        }
+
+        .sphere {
+            transform: rotate(calc(var(--rot) * 20deg));
+
+            &.sphere1 {
+                --bg: #f008;
+            }
+
+            &.sphere2 {
+                --bg: #f0f8;
+            }
+
+            &.sphere3 {
+                --bg: #ff08;
+            }
+
+            &.sphere4 {
+                --bg: #0f08;
+            }
+
+            &.sphere5 {
+                --bg: #0ff8;
+            }
+
+            &.sphere6 {
+                --bg: #00f8;
+            }
+
+            &.sphere7 {
+                --bg: #dc1ddf88;
+            }
+
+            &.sphere8 {
+                --bg: #ffa50088;
+            }
+
+            &.sphere8 {
+                --bg: #e5b2ca88;
+            }
+        }
+
+        .item {
+            border-radius: 50%;
+            background: var(--bg);
+            transform: rotateY(calc(var(--rot-y) * 40deg));
+        }
+    }
+}
+
+@keyframes girar {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
 }

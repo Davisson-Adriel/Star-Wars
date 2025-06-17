@@ -11,24 +11,111 @@ const planetImages = [
 ];
 
 personajesListaDiv.innerHTML = `
-<div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
-	<div class="wheel"></div>
-	<div class="hamster">
-		<div class="hamster__body">
-			<div class="hamster__head">
-				<div class="hamster__ear"></div>
-				<div class="hamster__eye"></div>
-				<div class="hamster__nose"></div>
-			</div>
-			<div class="hamster__limb hamster__limb--fr"></div>
-			<div class="hamster__limb hamster__limb--fl"></div>
-			<div class="hamster__limb hamster__limb--br"></div>
-			<div class="hamster__limb hamster__limb--bl"></div>
-			<div class="hamster__tail"></div>
-		</div>
-	</div>
-	<div class="spoke"></div>
-</div>
+
+<section class="container2">
+  <section class="loader">
+    <article style="--rot: 0" class="sphere sphere1">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 1" class="sphere sphere2">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 2" class="sphere sphere3">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 3" class="sphere sphere4">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 4" class="sphere sphere5">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 5" class="sphere sphere6">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 6" class="sphere sphere7">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 7" class="sphere sphere8">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+    <article style="--rot: 8" class="sphere sphere9">
+      <div class="item" style="--rot-y: 1"></div>
+      <div class="item" style="--rot-y: 2"></div>
+      <div class="item" style="--rot-y: 3"></div>
+      <div class="item" style="--rot-y: 4"></div>
+      <div class="item" style="--rot-y: 5"></div>
+      <div class="item" style="--rot-y: 6"></div>
+      <div class="item" style="--rot-y: 7"></div>
+      <div class="item" style="--rot-y: 8"></div>
+      <div class="item" style="--rot-y: 9"></div>
+    </article>
+  </section>
+</section>
+
 `;
 
 setTimeout(() => {
