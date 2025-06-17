@@ -1,12 +1,12 @@
 const personajesListaDiv = document.getElementById('personajes-lista');
 
 const planetImages = [
-    "planeta1.png",
-    "planeta2.png",
-    "planeta3.png",
-    "planeta4.png",
-    "planeta5.png",
-    "planeta6.png"
+    "./IMG/planeta1.png",
+    "./IMG/planeta2.png",
+    "./IMG/planeta3.png",
+    "./IMG/planeta4.png",
+    "./IMG/planeta5.png",
+    "./IMG/planeta6.png"
 
 ];
 
