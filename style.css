@@ -968,3 +968,17 @@ a {
     justify-content: center;
     text-align: center;
 }
+
+.divehiculos {
+    display: flex;
+}
+
+.tarjeta-vehiculos img {
+    width: 200px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.tarjeta-vehiculos img:hover {
+    transform: scale(1.5);
+}
