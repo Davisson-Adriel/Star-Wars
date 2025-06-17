@@ -672,3 +672,75 @@ a {
 #search:hover {
     box-shadow: 0 0 20px rgba(255, 232, 31, 0.7);
 }
+
+.header2 {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.planeta-container {
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.planeta-card {
+    width: 100%;
+    height: 100%;
+}
+
+.planeta-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+
+.planeta-info {
+    opacity: 0;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: opacity 1s ease-in-out;
+    line-height: 10px;
+    position: relative;
+    transform: translateY(-100%);
+}
+
+
+.planeta-card:hover .planeta-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.planeta-card:hover .planeta-img {
+ opacity: 0.5;
+ z-index: 1;
+ transform: scale(1.05);
+}
+
+.planeta-nombre {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0px 0px 5px black;
+    z-index: 2;
+}
