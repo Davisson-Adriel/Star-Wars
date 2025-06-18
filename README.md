@@ -23,6 +23,12 @@ Una experiencia interactiva desarrollada con HTML, CSS y JavaScript, que consume
 ---
 
 ## 📸 Maqutación
+<img width="417" alt="image" src="https://github.com/user-attachments/assets/1edd7b50-3291-49ec-934c-e082797d06f9" />
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/936bf1ca-ca96-4653-bc8a-929a9aa210fe" />
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/1cbfc768-def5-4917-915f-0d6ae88da4e3" />
+<img width="243" alt="image" src="https://github.com/user-attachments/assets/81fba2d8-87e9-4463-9bee-67b083df6dd5" />
+
+
 
 
 
