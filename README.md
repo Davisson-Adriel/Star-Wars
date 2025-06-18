@@ -52,7 +52,7 @@ Una experiencia interactiva desarrollada con HTML, CSS y JavaScript, que consume
 Puedes interactuar con el sistema mediante el siguiente enlace [PAGES](https://davisson-adriel.github.io/Star-Wars/)
 
 ## 🙌 Créditos
-Desarrollado con pasión por Davisson Adriel.
+Desarrollado con pasión por Davisson Adriel y Carlos Villamizar.
 Inspirado en la saga más épica del cine: Star Wars.
 Datos gracias a SWAPI.
 
